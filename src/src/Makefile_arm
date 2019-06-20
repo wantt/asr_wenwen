@@ -1,0 +1,2 @@
+main :
+	$(CXX) asr.cc -o asr -lpthread  -L../../../lib/armv8 -lmobvoisdk -I../../../
